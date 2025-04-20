@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -399,6 +400,52 @@
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 767px) {
+  .game-title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  .hero-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+  }
+  .character-frame img {
+    max-width: 90%;
+    height: auto;
+  }
+  .cta-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .social-proof {
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .stat-value {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+  .games-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .game-card {
+    padding: 10px;
+  }
+  .game-card-icon {
+    font-size: 1.5rem;
+  }
+  .game-card-title {
+    font-size: 0.95rem;
+  }
+}
+
 
   </style>
 </head>
