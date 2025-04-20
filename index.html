@@ -361,6 +361,7 @@
         justify-content: flex-start;
       }
       .character-frame {
+position: relative;
         max-width: 400px;
       }
       .games-grid {
@@ -444,9 +445,19 @@
   .game-card-title {
     font-size: 0.95rem;
   }
+  .character-frame img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
 }
 
 
+.big-character-img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}
   </style>
 </head>
 <body>
@@ -468,7 +479,7 @@
         <div class="character-container">
           <div class="character-frame">
             <div class="frame-glow"></div>
-            <img src="https://i.imgur.com/0xJXehY.png" style="width: 500px;">
+            <img src="https://i.imgur.com/0xJXehY.png" class="big-character-img">
           </div>
         </div>
         
